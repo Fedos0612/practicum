@@ -1,15 +1,6 @@
 @startuml
-'https://plantuml.com/sequence-diagram
-
-autonumber
-
-== Initialization ==
-
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-== Repetition ==
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+!include C4_Context.puml
+!include C4_Container.puml
+!include C4_Component.puml
+!include C4_Code.puml
 @enduml
